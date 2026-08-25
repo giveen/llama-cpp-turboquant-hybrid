@@ -1,0 +1,23 @@
+# Build artifacts
+/build/
+/bin/
+*.o
+*.so
+*.a
+*.dylib
+
+# Test models / large artifacts
+/test-models/dflash/
+/test-models/dflash-gguf/
+/test-models/target/*.gguf
+
+# IDE / OS
+/.cache/
+/.vscode/
+/.idea/
+/.swp
+*.swp
+.DS_Store
+
+# Logs
+*.log
